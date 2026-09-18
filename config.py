@@ -1,2 +1,4 @@
 MAX_CHARS = 10000
 FILE_FORMAT = ".py"
+WORKING_DIR = "./calculator"
+MAX_OF_ITERATIONS = 20
