@@ -59,8 +59,11 @@ schema_run_python_file = {
                     "description": "File name or path to be used in this function, merged with working directory",
                 },
                 "args": {
-                    "type": "list[string]",
+                    "type": "array",
                     "description": "Arguments of prompt based on user input",
+                    "items": {
+                        "type": "string"
+                    }
                 },
             },
         },
